@@ -27,6 +27,6 @@ echo NAME;
 <body>
 
 <h1>  <?php echo $name = "yoshi" ?></h1>
-<h1>  <?php echo NAME ?></h1>
+<h1>  <?php echo $name = "yoshi" ?></h1>
 </body>
 </html>
