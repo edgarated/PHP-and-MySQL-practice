@@ -17,9 +17,11 @@ include("include2.php");
 </head>
 <body>
 <!-- The include syntax below helps to spill out what is in include3.php into this current page -->
-  <h1><?php include("include3.php")    ?></h1>
-  <h1><?php include("include3.php")    ?></h1>
-  <h1><?php include("include3.php")    ?></h1>
-  <h1><?php include("include3.php")    ?></h1>
+  <?php include("include3.php")    ?>
+  <?php include("include3.php")    ?>
+  <?php include("include3.php")    ?>
+  <?php include("include3.php")    ?>
+  
+
 </body>
 </html>
